@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<PubmedArticleSet>
+  <PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+      <PMID Version="1">22300085</PMID>
+      <Article PubModel="Print">
+        <Journal>
+          <JournalIssue CitedMedium="Print"><PubDate><Year>2012</Year></PubDate></JournalIssue>
+          <Title>Example Journal of Peptide Studies</Title>
+        </Journal>
+        <ArticleTitle>An example rodent study of a pentadecapeptide.</ArticleTitle>
+        <Abstract><AbstractText>Rats were treated and healing was assessed.</AbstractText></Abstract>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y"><LastName>Example</LastName><Initials>A</Initials>
+            <AffiliationInfo><Affiliation>Department of Pharmacology, University of Zagreb School of Medicine, Zagreb, Croatia</Affiliation></AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y"><LastName>Second</LastName><Initials>B</Initials>
+            <AffiliationInfo><Affiliation>Department of Pharmacology, University of Zagreb School of Medicine, Zagreb, Croatia</Affiliation></AffiliationInfo>
+          </Author>
+        </AuthorList>
+        <PublicationTypeList>
+          <PublicationType UI="D016428">Journal Article</PublicationType>
+        </PublicationTypeList>
+        <ELocationID EIdType="doi" ValidYN="Y">10.1000/example.2012.001</ELocationID>
+      </Article>
+      <MeshHeadingList>
+        <MeshHeading><DescriptorName UI="D000818" MajorTopicYN="N">Animals</DescriptorName></MeshHeading>
+        <MeshHeading><DescriptorName UI="D051381" MajorTopicYN="N">Rats</DescriptorName></MeshHeading>
+      </MeshHeadingList>
+    </MedlineCitation>
+  </PubmedArticle>
+  <PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+      <PMID Version="1">19253699</PMID>
+      <Article PubModel="Print">
+        <Journal>
+          <JournalIssue CitedMedium="Print"><PubDate><Year>2009</Year></PubDate></JournalIssue>
+          <Title>Example Clinical Journal</Title>
+        </Journal>
+        <ArticleTitle>A randomised placebo-controlled trial in adults.</ArticleTitle>
+        <Abstract><AbstractText>Participants were randomised to treatment or placebo.</AbstractText></Abstract>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y"><LastName>Third</LastName><Initials>C</Initials>
+            <AffiliationInfo><Affiliation>Clinical Trials Unit, Example Hospital, Boston, MA, USA</Affiliation></AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y"><LastName>Example</LastName><Initials>A</Initials>
+            <AffiliationInfo><Affiliation>Department of Pharmacology, University of Zagreb School of Medicine, Zagreb, Croatia</Affiliation></AffiliationInfo>
+          </Author>
+        </AuthorList>
+        <PublicationTypeList>
+          <PublicationType UI="D016428">Journal Article</PublicationType>
+          <PublicationType UI="D016449">Randomized Controlled Trial</PublicationType>
+        </PublicationTypeList>
+      </Article>
+      <MeshHeadingList>
+        <MeshHeading><DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName></MeshHeading>
+      </MeshHeadingList>
+    </MedlineCitation>
+  </PubmedArticle>
+  <PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+      <PMID Version="1">31056810</PMID>
+      <Article PubModel="Electronic">
+        <Journal>
+          <JournalIssue CitedMedium="Internet"><PubDate><MedlineDate>2019 Apr-Jun</MedlineDate></PubDate></JournalIssue>
+          <Title>Example Case Reports</Title>
+        </Journal>
+        <ArticleTitle>A case report following self-administration.</ArticleTitle>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y"><LastName>Fourth</LastName><Initials>D</Initials></Author>
+        </AuthorList>
+        <PublicationTypeList>
+          <PublicationType UI="D002363">Case Reports</PublicationType>
+        </PublicationTypeList>
+      </Article>
+    </MedlineCitation>
+  </PubmedArticle>
+</PubmedArticleSet>

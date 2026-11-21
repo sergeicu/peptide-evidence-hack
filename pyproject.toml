@@ -1,0 +1,20 @@
+[project]
+name = "pephack"
+version = "0.1.0"
+description = "Starter pack for the SF x MIT Hack Day: Peptides - Claims vs Evidence"
+requires-python = ">=3.10"
+dependencies = [
+  "requests>=2.31",
+  "numpy>=1.24",
+  "scikit-learn>=1.3",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["pephack", "pephack.scoring", "pephack.datasets"]

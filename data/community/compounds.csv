@@ -1,0 +1,49 @@
+id,name,category,tier,is_peptide,receptor_class,human_research_score,side_effect_score,wiki_sections,n_references
+bpc-157,"BPC-157",tissue,C,TRUE,none,2,2,10,12
+tb-500,"TB-500",tissue,C,TRUE,none,1,2,9,8
+ghk-cu,"GHK-Cu",tissue,A,TRUE,none,4,3,9,7
+kpv,"KPV",immune,B,TRUE,contested,1,2,8,4
+cjc-1295,"CJC-1295",ghs,D,TRUE,known,3,3,9,7
+ipamorelin,"Ipamorelin",ghs,D,TRUE,known,3,3,9,8
+mk-677,"MK-677",ghs,B,FALSE,known,4,7,9,4
+tesamorelin,"Tesamorelin",ghs,B,TRUE,known,7,3,9,6
+sermorelin,"Sermorelin",ghs,D,TRUE,known,,2,8,7
+igf-1-lr3,"IGF-1 LR3",ghs,B,TRUE,known,4,6,8,3
+growth-hormone,"Growth Hormone (HGH)",ghs,S,TRUE,known,9,5,8,4
+aod-9604,"AOD-9604",ghs,C,TRUE,contested,3,2,9,6
+peg-mgf,"PEG-MGF",ghs,D,TRUE,contested,,,8,3
+epitalon,"Epitalon",longevity,F,TRUE,none,1,1,9,7
+mots-c,"MOTS-c",longevity,C,TRUE,none,,,8,10
+ss-31,"SS-31",longevity,B,TRUE,none,7,2,8,8
+dsip,"DSIP",longevity,C,TRUE,none,,,8,5
+cerebrolysin,"Cerebrolysin",longevity,B,TRUE,none,,,8,2
+selank,"Selank",longevity,C,TRUE,contested,,,9,7
+semax,"Semax",longevity,C,TRUE,contested,,,9,6
+dihexa,"Dihexa",longevity,F,FALSE,contested,,,8,4
+thymosin-alpha-1,"Thymosin Alpha-1",immune,B,TRUE,contested,6,,9,6
+kisspeptin-10,"Kisspeptin-10",immune,C,TRUE,known,,,8,3
+melanotan-ii,"Melanotan II",immune,D,TRUE,known,,8,8,5
+melanotan-i,"Melanotan I",immune,B,TRUE,known,8,,8,1
+pt-141,"PT-141",immune,B,TRUE,known,,,9,5
+ll-37,"LL-37",immune,C,TRUE,contested,,,8,4
+semaglutide,"Semaglutide",glp1,S,TRUE,known,9,4,10,8
+tirzepatide,"Tirzepatide",glp1,S,TRUE,known,9,4,10,9
+retatrutide,"Retatrutide",glp1,S,TRUE,known,6,4,10,8
+insulin,"Insulin",glp1,S,TRUE,known,10,7,8,2
+methylene-blue,"Methylene Blue",longevity,F,FALSE,na,,6,8,4
+tesofensine,"Tesofensine",glp1,B,FALSE,na,5,5,8,2
+slu-pp-332,"SLU-PP-332",glp1,D,FALSE,known,1,,8,2
+5-amino-1mq,"5-Amino-1MQ",glp1,C,FALSE,na,1,3,8,3
+cagrilintide,"Cagrilintide",glp1,B,TRUE,known,6,5,8,1
+humanin,"Humanin",longevity,D,TRUE,contested,2,,8,1
+oxytocin,"Oxytocin",longevity,C,TRUE,known,6,2,8,1
+setmelanotide,"Setmelanotide",immune,B,TRUE,known,7,4,8,1
+survodutide,"Survodutide",glp1,B,TRUE,known,5,5,8,1
+mazdutide,"Mazdutide",glp1,B,TRUE,known,6,5,8,1
+cotadutide,"Cotadutide",glp1,C,TRUE,known,4,4,8,1
+ghrp-2,"GHRP-2",ghs,C,TRUE,known,4,4,8,1
+ghrp-6,"GHRP-6",ghs,C,TRUE,known,3,4,8,1
+hexarelin,"Hexarelin",ghs,C,TRUE,known,4,4,8,1
+ara-290,"ARA-290",immune,C,TRUE,contested,3,2,8,1
+lipo-c,"LIPO-C",glp1,D,FALSE,na,2,2,8,1
+nad-plus,"NAD+",longevity,C,FALSE,na,4,2,8,1

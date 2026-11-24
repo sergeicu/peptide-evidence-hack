@@ -39,3 +39,30 @@ groups on the first couple of significant words, so it will merge two
 departments at one university and split one lab that renamed itself. Improving
 it is a legitimate afternoon. A better version should disagree with this one on
 specific compounds, and you should be able to say which answer is right and why.
+
+## The compound list
+
+Track 1's default set is `data/compounds.csv` — 24 compounds chosen so the
+scorer has controls (approved drugs, one that failed its human trials, one
+withdrawn, one approved only outside the US).
+
+The wider set is `data/community/compounds.csv` — 48 compounds taken from the
+California Peptide Club wiki, with that wiki's own tier ratings and its 1-10
+self-assessment of how much human evidence each one has. Start with the 24, then
+run your pipeline over the 48.
+
+Three things in that file are worth a card of their own:
+
+- **8 of the 48 are flagged by the wiki itself as not peptides** — MK-677,
+  Dihexa, Methylene Blue, Tesofensine, SLU-PP-332, 5-Amino-1MQ, LIPO-C, NAD+.
+  A category that contains a dye and a vitamin precursor is telling you
+  something about how the category is used.
+- **8 compounds have no identified receptor and 10 are contested.** "No known
+  receptor" and "500 papers on mechanism" is a tension worth surfacing.
+- **`human_research_score` is the wiki's own guess** at how much human evidence
+  exists, 1-10, for 35 of the 48. You can check it: correlate it against
+  `pubmed.species_breakdown()` and you have a scatter plot of community
+  perception against indexed reality. Nobody has published that chart.
+
+See `data/community/README.md` for the provenance of all of it, including why
+only 2 of the wiki's 209 citations reach primary literature.

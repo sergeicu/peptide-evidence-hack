@@ -49,3 +49,30 @@ nobody gets to claim a win without beating counting.
 - A claim about a compound's *origin story* is still a claim needing a source.
 - Vendors cite work on a different molecule than the one they sell. Check
   whether a cited study used the marketed fragment or the full-length protein.
+
+## Where to get 400 more claims
+
+`data/community/` holds the California Peptide Club corpus: 48 compounds, 438
+wiki sections, 466 inline citations. It is the claim corpus for this track, and
+its citation profile is the reason:
+
+| Source kind | Unique sources | Citations |
+|---|---|---|
+| YouTube videos | 36 | 176 |
+| X / Twitter posts | 4 | 30 |
+| Trial registry | 1 | 1 |
+| Primary literature | 1 | 1 |
+| Company pipeline page | 1 | 1 |
+
+Two citations out of 209 reach primary literature. One X post is cited 24 times
+across different compounds. 118 of the 438 sections carry no citation at all.
+
+So the task has a precise shape: **each claim already has a citation, and that
+citation is almost always a video.** Your agent has to find the primary document
+the video was describing — or establish that there is none. That is a harder and
+much more useful problem than starting from a bare claim, and you can measure it,
+because the wiki tells you what it thinks it is citing.
+
+Scoring stays the same: verdict plus the primary document, graded on macro F1 and
+citation resolvability. Teams that get this working leave behind something the
+community can actually use.

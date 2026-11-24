@@ -47,8 +47,24 @@ data/
   compounds.csv     24 compounds, with controls (see below)
   gold/claims.jsonl 12 seed claims. You write the other 38.
   fixtures/         offline fixtures so tests and dev need no network
-tracks/             a runnable baseline per track
+tracks/             one folder per track:
+  N_*/BRIEF.md        what to build, how you are scored  <- hand this to teams
+  N_*/README.md       detail, traps, and what the baseline cannot do
+  N_*/run.py          the baseline to beat
+  N_*/solution.py     stub to fill in
 ```
+
+## Pick a track
+
+| Track | Brief | Baseline |
+|---|---|---|
+| 1. Evidence graph | [tracks/1_evidence_graph/BRIEF.md](tracks/1_evidence_graph/BRIEF.md) | `python tracks/1_evidence_graph/run.py --compound BPC-157` |
+| 2. Claim to source | [tracks/2_claim_to_source/BRIEF.md](tracks/2_claim_to_source/BRIEF.md) | `python tracks/2_claim_to_source/run.py --out out/baseline.jsonl` |
+| 3. Safety record | [tracks/3_safety_record/BRIEF.md](tracks/3_safety_record/BRIEF.md) | `python tracks/3_safety_record/run.py --out out/safety.json` |
+| 4. Prediction checks | [tracks/4_prediction_checks/BRIEF.md](tracks/4_prediction_checks/BRIEF.md) | `python tracks/4_prediction_checks/run.py --dataset hemolytic` |
+
+Every track has a baseline that works and that you have to beat. Run it before
+you write anything.
 
 ## The three ideas worth stealing from this repo
 
